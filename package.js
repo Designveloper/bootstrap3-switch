@@ -14,7 +14,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.0.0');
+  api.versionsFrom('1.0');
 
   api.addFiles('bootstrap-switch.js', 'client');
   api.addFiles('bootstrap-switch.css', 'client');
